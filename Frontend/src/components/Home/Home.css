@@ -1,0 +1,41 @@
+.Main_Home_Container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.Login_btn {
+    padding: 10px 45px;
+    border-radius: 7px;
+    background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 74%);
+    color: white;
+    font-size: 20px;
+    border: none !important;
+    cursor: pointer;
+}
+
+.signup_btn {
+    cursor: pointer;
+    border: none !important;
+    padding: 10px 45px;
+    border-radius: 7px;
+    background-image: linear-gradient(315deg, #7a7adb 0%, #170e13 74%);
+    border-color: linear-gradient(315deg, #7a7adb 0%, #170e13 74%);
+    color: white;
+    font-size: 20px;
+}
+
+.main_modal {
+    background-color: #537895 !important;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%) !important;
+}
